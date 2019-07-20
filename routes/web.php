@@ -14,7 +14,12 @@
 Route::get('/', 'HomeController@ReadLandingPage')->name('landingpage');
 Route::get('/home', 'HomeController@ReadDashboard')->name('home');
 Route::get('/datapilpres', 'DataController@ReadDataPilpres')->name('datapilpres.read');
-Route::get('/datadpdri', 'DataController@ReadDataDPDRI')->name('datadpdri.read');
+Route::get('/datapilpres/{id}', 'DataController@DetailDataPilpres')->name('datapilpres.detail');
+Route::get('/datadpd', 'DataController@ReadDataDPD')->name('datadpd.read');
+Route::get('/datadpd/{id}', 'DataController@DetailDataDPD')->name('datadpd.detail');
 Route::get('/datadprri', 'DataController@ReadDataDPRRI')->name('datadprri.read');
+Route::get('/datadprri/{id}', 'DataController@DetailDataDPRRI')->name('datadprri.detail');
 Route::get('/datadprdprovinsi', 'DataController@ReadDataDPRDProvinsi')->name('datadprdprovinsi.read');
+Route::get('/datadprdprovinsi/{id}', 'DataController@DetailDataDPRDProvinsi')->name('datadprdprovinsi.detail');
 Route::get('/datadprdkabupaten', 'DataController@ReadDataDPRDKabupaten')->name('datadprdkabupaten.read');
+Route::get('/datadprdkabupaten/{id}', 'DataController@DetailDataDPRDKabupaten')->name('datadprdkabupaten.detail');

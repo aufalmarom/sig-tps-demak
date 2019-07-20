@@ -36,10 +36,9 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h3 text-gray-900 mb-4">Selamat Datang di <br>  Sistem Informasi Geografis P2SHP 2019</h1>
-                    <p class="medium">deskripsi sistem ... deskripsi sistem ... deskripsi sistem ... deskripsi sistem ...deskripsi sistem ... deskripsi sistem ...deskripsi sistem ... deskripsi sistem ...deskripsi sistem ... deskripsi sistem ... ...deskripsi sistem ... deskripsi sistem ...deskripsi sistem ... deskripsi sistem ... </p>
+                    <h1 class="h3 text-gray-900 mb-4">Selamat Datang di <br> Aplikasi Perolehan Suara Pemilu 2019 di Kecamatan Demak</h1>
+                    <p class="medium">Terima kasih telah mengakses web ini. Ini adalah tahap awal untuk masuk ke sistem kami. Aplikasi ini berisi perolehan suara hasil Pemilihan Umum 2019 yang terdiri dari Pemilihan Presiden, DPR RI, DPRD Provinsi, DPD, dan DPRD Kabupaten yang ada di 10 Desa dengan hak pilih terbanyak di Kecamatan Demak, Kabupaten Demak. Untuk selebihnya anda bisa klik tombol di bawah ini!</p>
                   </div>
-                    
                     <a href="{{route('home')}}" class="btn btn-primary btn-user btn-block">
                       Silahkan Masuk 
                     </a>

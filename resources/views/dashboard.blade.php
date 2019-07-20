@@ -28,9 +28,9 @@
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('home')}}">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+            <i class="fas fa-vote-yea"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">P2SHP 2019</div>
+        <div class="sidebar-brand-text mx-3">Suara Demak 2019</div>
         </a>
 
         <!-- Divider -->
@@ -67,7 +67,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Pemilu Legislatif:</h6>
-            <a class="collapse-item" href="{{route('datadpdri.read')}}">DPD RI</a>
+            <a class="collapse-item" href="{{route('datadpd.read')}}">DPD</a>
             <a class="collapse-item" href="{{route('datadprri.read')}}">DPR RI</a>
             <a class="collapse-item" href="{{route('datadprdprovinsi.read')}}">DPRD Provinsi</a>
             <a class="collapse-item" href="{{route('datadprdkabupaten.read')}}">DPRD Kabupaten/Kota</a>
@@ -130,7 +130,7 @@
         <footer class="sticky-footer bg-white">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-            <span>Copyright &copy; <a href="https://aufalmarom.id">Aufal Marom</a></span>
+            <span>Copyright &copy; 2019</span>
             </div>
         </div>
         </footer>
