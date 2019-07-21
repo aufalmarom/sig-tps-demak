@@ -7,7 +7,7 @@ var ctx = document.getElementById("pie-pilpres");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Suara", "Suara", "Suara"],
+    labels: ["PPP", "PKS", "Demokrat"],
     datasets: [{
       data: [55, 30, 15],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
@@ -40,7 +40,7 @@ var ctx = document.getElementById("pie-pileg-dpd");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["PPP", "PKS", "Demokrat"],
     datasets: [{
       data: [55, 30, 15],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
@@ -72,7 +72,7 @@ var ctx = document.getElementById("pie-pileg-dprri");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["PPP", "PKS", "Demokrat"],
     datasets: [{
       data: [55, 30, 15],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
@@ -104,7 +104,7 @@ var ctx = document.getElementById("pie-pileg-dprdprovinsi");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["PPP", "PKS", "Demokrat"],
     datasets: [{
       data: [55, 30, 15],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
@@ -136,7 +136,7 @@ var ctx = document.getElementById("pie-pileg-dprdkab");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["PPP", "PKS", "Demokrat"],
     datasets: [{
       data: [55, 30, 15] ,
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],

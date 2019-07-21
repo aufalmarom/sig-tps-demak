@@ -4,7 +4,7 @@
 <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
 </div>
 
-<!-- Content Row -->
+<!-- Count -->
 
 <div class="row justify-content-center">
     <div class="col-xl-6 col-md-6 mb-4">
@@ -57,7 +57,6 @@
         </div>
     </div>
 </div>
-
 <div class="row">
     <!-- Pending Requests Card Example -->
     <div class="col-xl-6 col-md-6 mb-4">
@@ -92,6 +91,10 @@
         </div>
     </div>
 </div>
+
+<!-- End Count -->
+
+<!-- Pie Chart -->
 
 <div class="row">
     <div class="col-xl-6 col-lg-6">
@@ -204,6 +207,10 @@
     </div>
 </div>
 
+<!-- End Pie Chart -->
+
+<!-- Bar Chart -->
+
 <div class="row">
     <div class="col-lg-12 col-xl-12 col-md-12">
         <div class="card shadow mb-4">
@@ -212,13 +219,81 @@
             </div>
             <div class="card-body">
                 <div class="chart-bar">
-                <canvas id="myBarChart"></canvas>
+                <canvas id="presiden"></canvas>
                 </div>
                 <hr>Descriptione opo iki?
             </div>
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-lg-12 col-xl-12 col-md-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Pemilihan Legislatif DPD</h6>
+            </div>
+            <div class="card-body">
+                <div class="chart-bar">
+                <canvas id="dpd"></canvas>
+                </div>
+                <hr>Descriptione opo iki?
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-xl-12 col-md-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Pemilihan Legislatif DPR RI</h6>
+            </div>
+            <div class="card-body">
+                <div class="chart-bar">
+                <canvas id="dprri"></canvas>
+                </div>
+                <hr>Descriptione opo iki?
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-xl-12 col-md-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Pemilihan Legislatif DPRD Provinsi</h6>
+            </div>
+            <div class="card-body">
+                <div class="chart-bar">
+                <canvas id="dprdprovinsi"></canvas>
+                </div>
+                <hr>Descriptione opo iki?
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-xl-12 col-md-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Pemilihan Legislatif DPRD Kabupaten/Kota</h6>
+            </div>
+            <div class="card-body">
+                <div class="chart-bar">
+                <canvas id="dprdkab"></canvas>
+                </div>
+                <hr>Descriptione opo iki?
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End Bar Chart -->
+
+<!-- Maps -->
 
 <div class="row">
     <div class="col-xl-12 col-lg-12">
@@ -234,4 +309,8 @@
     </div>
     </div>
 </div>
+
+<!-- End Maps -->
+
+
 @endsection

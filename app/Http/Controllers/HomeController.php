@@ -32,4 +32,32 @@ class HomeController extends Controller
 
         return view('/home', compact('suara_presiden', 'presiden_terbanyak', 'dpd_terbanyak','suara_dpd', 'suara_dpr_ri', 'dpr_ri_terbanyak', 'suara_dprd_provinsi', 'dprd_provinsi_terbanyak', 'suara_dprd_kab', 'dprd_kab_terbanyak'));
     }
+
+    public function ReadMaps()
+    {
+        return view('maps');
+    }
+    public function ReadCount()
+    {
+        $suara_presiden = SuaraPresiden::max('suara');
+        $presiden_terbanyak = SuaraPresiden::where('suara', $suara_presiden)->first();
+        $suara_dpd = SuaraDPD::max('suara');
+        $dpd_terbanyak = SuaraDPD::where('suara', $suara_dpd)->first();
+        $suara_dpr_ri = SuaraDPRRI::max('suara');
+        $dpr_ri_terbanyak = SuaraDPRRI::where('suara', $suara_dpr_ri)->first();
+        $suara_dprd_provinsi = SuaraDPRDProvinsi::max('suara');
+        $dprd_provinsi_terbanyak = SuaraDPRDProvinsi::where('suara', $suara_dprd_provinsi)->first();
+        $suara_dprd_kab = SuaraDPRDKab::max('suara');
+        $dprd_kab_terbanyak = SuaraDPRDKab::where('suara', $suara_dprd_kab)->first();
+
+        return view('/count', compact('suara_presiden', 'presiden_terbanyak', 'dpd_terbanyak','suara_dpd', 'suara_dpr_ri', 'dpr_ri_terbanyak', 'suara_dprd_provinsi', 'dprd_provinsi_terbanyak', 'suara_dprd_kab', 'dprd_kab_terbanyak'));
+    }
+    public function ReadBar()
+    {
+        return view('bar');
+    }
+    public function ReadPie()
+    {
+        return view('pie');
+    }
 }

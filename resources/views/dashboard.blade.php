@@ -50,7 +50,7 @@
         <div class="sidebar-heading">
         Menus
         </div>
-
+        
         <!-- Nav Item - Tables -->
         <li class="nav-item">
         <a class="nav-link" href="{{route('datapilpres.read')}}">
@@ -75,6 +75,22 @@
         </div>
         </li>
 
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#recap" aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-chart-pie"></i>
+                <span>Recap Datas</span>
+            </a>
+            <div id="recap" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Pemilu Legislatif:</h6>
+                <a class="collapse-item" href="{{route('count.read')}}">Count</a>
+                <a class="collapse-item" href="{{route('pie.read')}}">Pie Chart</a>
+                <a class="collapse-item" href="{{route('bar.read')}}">Bar Chart</a>
+                <a class="collapse-item" href="{{route('maps.read')}}">Maps</a>
+                </div>
+            </div>
+        </li>
         
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
