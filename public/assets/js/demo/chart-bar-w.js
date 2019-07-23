@@ -32,7 +32,7 @@ var ctx = document.getElementById("presiden");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["PKB", "PKN", "PKS", "PKP", "PKK", "PKL"],
+    labels: ["PKB",],
     datasets: [{
       label: "Suara",
       backgroundColor: "#4e73df",
