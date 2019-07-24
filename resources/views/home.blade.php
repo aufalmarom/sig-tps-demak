@@ -627,9 +627,6 @@
       },
       scales: {
         xAxes: [{
-          time: {
-            unit: 'month'
-          },
           gridLines: {
             display: false,
             drawBorder: false
