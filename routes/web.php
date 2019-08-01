@@ -17,6 +17,7 @@ Route::get('/maps', 'HomeController@ReadMaps')->name('maps.read');
 Route::get('/count', 'HomeController@ReadCount')->name('count.read');
 Route::get('/bar', 'HomeController@ReadBar')->name('bar.read');
 Route::get('/pie', 'HomeController@ReadPie')->name('pie.read');
+Route::get('/aboutus', 'HomeController@ReadAbout')->name('about.read');
 Route::get('/datapilpres', 'DataController@ReadDataPilpres')->name('datapilpres.read');
 Route::get('/datapilpres/{id}', 'DataController@DetailDataPilpres')->name('datapilpres.detail');
 Route::get('/datadpd', 'DataController@ReadDataDPD')->name('datadpd.read');

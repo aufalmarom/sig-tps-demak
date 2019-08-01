@@ -92,7 +92,13 @@
             </div>
         </li>
         
-        <!-- Divider -->
+
+        <li class="nav-item">
+        <a class="nav-link" href="{{route('about.read')}}">
+            <i class="fas fa-fw fa-user"></i>
+            <span>About Us</span></a>
+        </li>
+
         <hr class="sidebar-divider d-none d-md-block">
 
         <!-- Sidebar Toggler (Sidebar) -->

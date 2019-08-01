@@ -62,6 +62,11 @@ class HomeController extends Controller
 
         return view('/count', compact('suara_presiden', 'presiden_terbanyak', 'dpd_terbanyak','suara_dpd', 'suara_dpr_ri', 'dpr_ri_terbanyak', 'suara_dprd_provinsi', 'dprd_provinsi_terbanyak', 'suara_dprd_kab', 'dprd_kab_terbanyak'));
     }
+
+    public function ReadAbout()
+    {
+        return view ('about');
+    }
     public function ReadBar()
     {
         return view('bar');
